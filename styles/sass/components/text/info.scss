@@ -1,0 +1,31 @@
+.info-text {
+  max-width: 20em;
+  margin-bottom: 1em;
+  text-transform: none;
+
+  @include breakpoint(40em) {
+    @include font-size(23px);
+  }
+
+  @include breakpoint(60em) {
+    @include font-size(27px);
+  }
+}
+
+// VARIATIONS
+
+.info-text--large {
+  @include breakpoint(40em) {
+    @include font-size(30px);
+  }
+
+  @include breakpoint(60em) {
+    @include font-size(35px);
+  }
+}
+
+.info-text--center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}

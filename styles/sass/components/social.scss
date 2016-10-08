@@ -1,0 +1,68 @@
+.some-icons {
+  display: flex;
+  justify-content: center;
+  -webkit-backface-visibility: hidden;
+}
+
+.some-icon {
+  width: $icon-size;
+  height: $icon-size;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  margin: 0 .5em;
+  transition: transform .25s ease;
+
+  &:hover {
+    transform: translateY(-10%);
+  }
+}
+
+.some-icon--twitter {
+  background: {
+    image: url("/img/icon--twitter.svg");
+  }
+}
+
+.some-icon--github {
+  background: {
+    image: url("/img/icon--github.svg");
+  }
+}
+
+.some-icon--linkedin {
+  background: {
+    image: url("/img/icon--linkedin.svg");
+  }
+}
+
+.some-icon--twitter-white {
+  background: {
+    image: url("/img/icon--twitter--white.svg");
+  }
+}
+
+.some-icon--github-white {
+  background: {
+    image: url("/img/icon--github--white.svg");
+  }
+}
+
+.some-icon--linkedin-white {
+  background: {
+    image: url("/img/icon--linkedin--white.svg");
+  }
+}
+
+// Emoji
+
+.emoji--sad {
+  background-image: url("/img/emoji--sad.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  width: 10em;
+  height: 10em;
+  margin: 0 auto 2em;
+}

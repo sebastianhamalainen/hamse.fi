@@ -1,0 +1,34 @@
+.heading {
+  font-weight: 500;
+  margin-bottom: 1rem;
+
+  @include breakpoint(40em) {
+    @include font-size(27px);
+  }
+
+  @include breakpoint(60em) {
+    @include font-size(30px);
+  }
+
+  @include breakpoint(80em) {
+    @include font-size(32px);
+  }
+}
+
+// VARIATIONS
+
+.heading--large {
+  @include font-size(35px);
+
+  @include breakpoint(40em) {
+    @include font-size(45px);
+  }
+
+  @include breakpoint(60em) {
+    @include font-size(55px);
+  }
+
+  @include breakpoint(80em) {
+    @include font-size(65px);
+  }
+}

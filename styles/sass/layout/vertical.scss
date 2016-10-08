@@ -1,0 +1,35 @@
+.vertical-space {
+  padding-top: 3em;
+  padding-bottom: 3em;
+
+  @include breakpoint(26em) {
+    padding-bottom: 4em;
+  }
+
+  @include breakpoint(50em) {
+    padding-bottom: 5em;
+  }
+}
+
+.vertical-space--big {
+  padding-top: 6em;
+  padding-bottom: 6em;
+
+  @include breakpoint(26em) {
+    padding-top: 6em;
+    padding-bottom: 6em;
+  }
+
+  @include breakpoint(50em) {
+    padding-top: 10em;
+    padding-bottom: 10em;
+  }
+}
+
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}

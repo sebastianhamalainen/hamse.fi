@@ -1,0 +1,13 @@
+.content {
+  display: block;
+  width: 100%;
+  margin-bottom: 2.5rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @include breakpoint(35em) {
+    margin: 0 auto 4rem;
+  }
+}
