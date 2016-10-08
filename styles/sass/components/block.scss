@@ -16,14 +16,3 @@
 .block--light-gray {
   background-color: rgba($white-darker, .5);
 }
-
-.block--pattern {
-  background-color: $gray-very-dark;
-  background-image: linear-gradient(rgba($black, .55), rgba($black, .55)), url("/img/lines.svg");
-  background-repeat: repeat;
-  background-size: 20px;
-
-  & * {
-    color: $white;
-  }
-}

@@ -1,0 +1,8 @@
+.divider::after {
+  content: "";
+  border-bottom: 1px solid $white-darkest;
+  width: 80%;
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+}
