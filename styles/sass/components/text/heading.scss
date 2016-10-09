@@ -10,10 +10,6 @@
   @include breakpoint(60em) {
     @include font-size(30px);
   }
-
-  @include breakpoint(80em) {
-    @include font-size(32px);
-  }
 }
 
 // VARIATIONS
@@ -27,9 +23,5 @@
 
   @include breakpoint(60em) {
     @include font-size(55px);
-  }
-
-  @include breakpoint(80em) {
-    @include font-size(65px);
   }
 }
